@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit brust web page</title>
+    <!-- Tailwind & DaisyUI CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind customizing config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Internal CSS -->
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <header class="">
+        <nav class=" max-w-7xl mx-auto">
+            <div class="bg-[#F85559;] rounded-full md:px-4 flex justify-between items-center text-white">
+                <div class="flex gap-5">
+                    <li class="list-none"><a href="">Home</a></li>
+                    <li class="list-none"><a href="">About Us</a></li>
+                    <li class="list-none"><a href="">Shop</a></li>
+                    <li class="list-none"><a href="">All Fruits</a></li>
+                </div>
+
+                <div class=" flex items-center">
+                    <img src="images/logo.png" alt=""> <span class="text-4xl font-bold">Fruit Burst</span>
+                </div>
+                <div>
+                    <input class="border-2 md:w-96 rounded-full p-2" type="text" placeholder="Search here">
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+</body>
+
+</html>
