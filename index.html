@@ -32,7 +32,7 @@
 <body>
   <header class="">
     <nav class=" max-w-7xl mx-auto">
-      <div class="bg-[#F85559;] rounded-full md:px-4 flex justify-between items-center text-white">
+      <div class="md:bg-[#F85559;] rounded-full md:px-4 flex flex-row-reverse md:flex-row md:justify-between items-center md:text-white">
         <div class="flex gap-5">
           <li class="list-none"><a href="">Home</a></li>
           <li class="list-none"><a href="">About Us</a></li>
@@ -40,11 +40,14 @@
           <li class="list-none"><a href="">All Fruits</a></li>
         </div>
 
-        <div class=" flex items-center">
+        <div class=" flex items-center gap-2">
           <img src="images/logo.png" alt=""> <span class="text-4xl font-bold">Fruit Burst</span>
         </div>
-        <div>
-          <input class="border-2 md:w-96 rounded-full p-2" type="text" placeholder="Search here">
+        <div class="hidden md:block bg-white rounded-full flex items-center my-5 ">
+          <input class="md:w-96 rounded-full p-3" type="text" placeholder="Search here">
+           <button class="pr-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M21 21L15.803 15.803M15.803 15.803C17.2096 14.3965 17.9998 12.4887 17.9998 10.4995C17.9998 8.51035 17.2096 6.60262 15.803 5.19605C14.3964 3.78947 12.4887 2.99927 10.4995 2.99927C8.51029 2.99927 6.60256 3.78947 5.19599 5.19605C3.78941 6.60262 2.99921 8.51035 2.99921 10.4995C2.99921 12.4887 3.78941 14.3965 5.19599 15.803C6.60256 17.2096 8.51029 17.9998 10.4995 17.9998C12.4887 17.9998 14.3964 17.2096 15.803 15.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg></button>
         </div>
       </div>
     </nav>
